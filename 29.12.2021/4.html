@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="keywords" content="akşamcılar,tablo,tr,td,th"/>
+        <meta name="description" content="Akşamcıların Tablo Yapısı"/>
+        <title>Tablolar</title>
+
+        <style> /*internal CSS yani head içinde style'a yazılan stil*/
+            td{background-color: yellow;color: red;} /*Tüm td'lere bu stili uygular.*/
+            th{background-color: yellow; color: blue;} /*Tüm th'lere bu stili uygular.*/
+        </style>
+    </head>
+
+    <body>
+
+        <table border="1" width="100%">
+            <tr><th>Col1</th><th>Col2</th></tr>
+            <tr><td align="right">Row1-1</td><td>Row1-2</td></tr>
+            <tr><td align="right">Row2-1</td><td>Row2-2</td></tr>
+            <tr><td align="right" style="background-color: white; color: blue;"><b>Toplam1</b></td><td>Row2-2</td></tr> <!--Bu satırda default olan style'ı değiştirdik.-->
+        </table>
+
+    </body>
+
+
+</html>

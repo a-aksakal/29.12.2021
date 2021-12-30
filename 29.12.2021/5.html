@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="keywords" content="akşamcılar,tablo,tr,td,th"/>
+        <meta name="description" content="Akşamcıların Tablo Yapısı"/>
+        <title>Tablolar</title>
+
+        <style> 
+            .class1
+            {
+                background-color: yellow;color: red; /*Tüm td'lere bu stili uygular.*/
+            }
+
+            .class2
+            {
+                background-color: yellow;color: blue; /*Tüm td'lere bu stili uygular.*/
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <table border="1" width="100%">
+            <tr><th class="class2">Col1</th><th class="class2">Col2</th></tr>
+            <tr><td class="class1" align="right">Row1-1</td><td class="class1">Row1-2</td></tr>
+            <tr><td class="class1" align="right">Row2-1</td><td class="class1">Row2-2</td></tr>
+            <tr><td class="class1" align="right" style="background-color: white; color: blue;"><b>Toplam1</b></td><td class="class1" >Row2-2</td></tr> <!--Bu satırda default olan style'ı değiştirdik.-->
+        </table>
+
+    </body>
+
+
+</html>
